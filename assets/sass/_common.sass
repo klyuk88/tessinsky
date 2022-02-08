@@ -1,0 +1,346 @@
+@font-face
+    font-family: "SunBleuSunrise"
+    src: url('../fonts/SangBleuSunrise-Light-WebXL.woff') format("woff")
+    font-weight: 300
+@font-face
+    font-family: "SunBleuSunrise"
+    src: url('../fonts/SangBleuSunrise-Regular-WebXL_1.woff') format("woff")
+    font-weight: 400
+
+@font-face
+    font-family: "SunBleuVersailles"
+    src: url('../fonts/SangBleuVersailles-Regular-WebXL_1.woff') format("woff")
+    font-weight: 400
+@font-face
+    font-family: "SunBleuVersailles"
+    src: url('../fonts/SangBleuVersailles-Bold-WebXL.woff') format("woff")
+    font-weight: 700
+
+*
+    box-sizing: border-box
+
+body
+    overflow-x: hidden
+
+body, p
+    font-family: 'SunBleuVersailles'
+    font-weight: 400
+    font-size: 16px
+    margin: 0
+    padding: 0
+
+h1,h2,h3,h4,h5,h6
+    font-family: 'SunBleuSunrise'
+    font-weight: 400
+    margin: 0
+    padding: 0
+
+p
+    line-height: 1.5
+    @media screen and ( max-width: 375px )
+        font-size: 14px
+        
+
+h1
+    font-size: 60px
+    @media screen and ( max-width: 960px )
+        font-size: 45px
+
+h2
+    font-size: 50px
+    @media screen and ( max-width: 960px )
+        font-size: 40px
+
+h3
+    font-size: 45px
+    @media screen and ( max-width: 960px )
+        font-size: 35px
+    @media screen and ( max-width: 960px )
+        font-size: 30px
+    @media screen and ( max-width: 375px )
+        font-size: 25px
+
+h4
+    font-size: 35px
+    @media screen and ( max-width: 960px )
+        font-size: 30px
+    @media screen and ( max-width: 768px )
+        font-size: 25px
+    @media screen and ( max-width: 375 )
+        font-size: 22px
+
+h5
+    font-size: 20px
+
+ul
+    list-style: none
+    padding: 0
+
+a
+    text-decoration: none
+    color: #fff
+    font-size: 16px
+    transition: all .1s ease
+
+a:hover
+    opacity: 0.8
+
+img
+    width: 100%
+    height: auto
+
+.button
+    background-color: $red
+    padding: 20px 40px
+    border: none
+    font-size: 18px
+    border-radius: 60px
+    color: #fff
+    font-family: 'SunBleuSunrise'
+    transition: all .3s ease
+    cursor: pointer
+    @media screen and ( max-width: 960px )
+        padding: 15px 30px
+        font-size: 16px
+    @media screen and ( max-width: 375px )
+        font-size: 12px
+
+.button:hover
+    background-color: #fff
+    color: $black
+
+.button-small
+    padding: 10px 30px
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 15px
+    @media screen and ( min-width: 1920px )
+        max-width: 1400px
+        
+
+.color-white
+    color: #fff
+
+.color-black
+    color: $black
+
+.color-black-l
+    color: $black-light
+
+.color-brown
+    color: $brown
+
+.color-red
+    color: $red
+
+.color-grey
+    color: $grey
+
+.bg-white
+    background-color: #fff
+
+.bg-black
+    background-color: $black
+
+.bg-brown
+    background-color: $brown
+
+.bg-red
+    background-color: $red
+
+.bg-grey
+    background-color: $grey
+
+.bg-white
+    background-color: #fff
+
+.bg-transparent
+    background-color: transparent
+
+.with-border
+    border: 1px solid $black
+
+.with-border:hover
+    border: 1px solid $grey
+
+.text-uppercase
+    text-transform: uppercase
+
+.bg-set
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+.d-flex
+    display: flex
+
+.flex-lg-column
+    @media screen and ( max-width: 960px )
+        flex-direction: column
+
+.align-center
+    align-items: center
+
+.align-start
+    align-items: flex-start
+
+.justify-between
+    justify-content: space-between
+
+.flex-column
+    flex-direction: column
+
+.justify-center
+    justify-content: center
+
+.text-center
+    text-align: center
+
+.text-small
+    font-size: 12px
+
+.pt-170
+    padding-top: 120px
+    @media screen and ( max-width: 960px )
+        padding-top: 100px
+
+.pb-170
+    padding-bottom: 170px
+
+.pb-50
+    padding-bottom: 50px
+
+.mt-50
+    margin-top: 50px
+.mt-80
+    margin-top: 80px
+
+.mb-60
+    margin-bottom: 60px
+
+.pl-150
+    padding-left: 150px
+
+.p-relative
+    position: relative
+
+.p-absolute
+    position: absolute
+
+.mt-100
+    margin-top: 100px
+
+.mt-lg-50
+    @media screen and ( max-width: 960px )
+        margin-top: 50px
+
+.hide
+    display: none
+
+.align-end
+    align-items: flex-end
+
+.pb-60
+    padding-bottom: 60px
+
+.overlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.4)
+
+.overlay-dark
+    background-color: rgba(0,0,0,0.7)
+
+.mt-15
+    margin-top: 20px
+
+.pt-120
+    padding-top: 120px
+
+.pb-120
+    padding-bottom: 120px
+
+.mt-170
+    margin-top: 170px
+
+.mt-lg-120
+    @media screen and ( max-width: 960px )
+        margin-top: 120px
+
+.d-block
+    display: block
+
+.flex-wrap
+    flex-wrap: wrap
+
+.mt-30
+    margin-top: 30px
+
+.mr-10
+    margin-right: 10px
+
+.mr-30
+    margin-right: 30px
+
+.box-shadow
+    box-shadow: 0 10px 50px rgba(0,0,0,0.2)
+
+.bg-grey-l
+    background-color: #f9f9f9
+
+.width-30
+    width: 30%
+    @media screen and ( max-width: 960px )
+        width: 100%
+
+.width-60
+    width: 60%
+    @media screen and ( max-width: 960px )
+        width: 100%
+
+.cover-image
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    display: block
+    object-fit: cover
+
+.w-100per
+    width: 100%
+
+.white-wrap
+    white-space: initial
+
+.overflow-hidden
+    overflow: hidden
+
+//grid
+.d-grid
+    display: grid
+
+.grid-columns-30-70
+    grid-template-columns: 1fr 2fr
+    gap: 60px
+
+.grid-columns-70-30
+    grid-template-columns: 2fr 1fr
+    column-gap: 60px
+
+.row-gap-50
+    row-gap: 50px
+
+.align-grid-center
+    align-items: center
+
+.ml-1
+    margin-left: -1px
+
+*:focus
+    outline: none

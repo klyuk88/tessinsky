@@ -1,0 +1,410 @@
+.s-cover
+    height: 900px
+    @media screen and ( max-width: 960px )
+        height: auto
+
+.logo img
+    width: 135px
+
+nav
+    width: 40%
+    @media screen and ( max-width: 960px )
+        width: 50%
+    @media screen and ( max-width: 768px )
+        display: none
+
+.title-b
+    margin-top: 130px
+    @media screen and ( max-width: 960px )
+        padding-bottom: 130px
+    @media screen and ( max-width: 375px )
+        margin-top: 50px
+
+    h1
+        margin-bottom: 50px
+        @media screen and ( max-width: 1300px )
+            font-size: 55px
+        @media screen and ( max-width: 576px )
+            font-size: 35px
+        @media screen and ( max-width: 375px )
+            font-size: 25px
+
+.logo-project h2
+    font-size: 25px
+    margin-bottom: 40px
+    @media screen and ( max-width: 960px )
+        font-size: 18px
+
+.nav-b
+    padding: 10px 0
+    @media screen and ( max-width: 375px )
+        flex-direction: column
+        align-items: center
+        text-align: center
+
+.video-wrap
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    overflow: hidden
+
+.video-preview
+    object-fit: cover
+    display: block
+    width: 100%
+    height: 100%
+
+.video-b
+    cursor: pointer
+    video
+        width: 100%
+        height: auto
+        display: block
+
+.play-video-btn
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 70px
+    height: auto
+    @media screen and ( max-width: 375px )
+        width: 30px
+
+.video-bg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.4)
+    display: block
+
+.s-location
+    margin-bottom: 100px
+    @media screen and ( min-width: 1920px )
+        margin-bottom: 0
+
+.s-location-text-b
+    p:first-child
+        width: 48%
+        @media screen and ( max-width: 576px )
+            width: 100%
+    p:last-child
+        width: 48%
+        @media screen and ( max-width: 576px )
+            width: 100%
+    @media screen and ( max-width: 576px )
+        flex-direction: column
+
+#map
+    width: 100%
+    height: 500px
+    filter: grayscale(100%)
+    @media screen and ( max-width: 576px )
+        height: 300px
+
+.swiper-slide
+    width: 100%
+    position: relative
+    height: 550px
+    @media screen and ( max-width: 768px )
+        height: 450px
+    @media screen and ( max-width: 768px )
+        height: 300px
+    @media screen and ( max-width: 375px )
+        height: 250px
+
+.swiper-slide-image
+    position: absolute
+    left: 0
+    width: 100%
+    height: 100%
+    top: 0
+    object-fit: cover
+
+.slide-content-b p
+    width: 60%
+
+.swiper-slide-overlay
+    z-index: 1
+
+.slide-content-b
+    z-index: 2
+
+.slider-nav-b
+    right: 100px
+    bottom: 60px
+    z-index: 5
+    img
+        width: 75px
+        height: 75px
+        opacity: 0.7
+        transition: all .1s ease
+        cursor: pointer
+    img:hover
+        opacity: 1
+    img:first-child
+        margin-right: 15px
+    img:focus
+        outline: none
+
+.form-item
+    padding: 10px
+    margin-right: 30px
+    input
+        background: transparent
+        font-size: 16px
+        color: #fff
+        border: none
+    input:focus, select:focus
+        outline: none
+    input::placeholder
+        color: #fff
+        font-family: 'SunBleuSunrise'
+    select
+        appearance: none
+        background: transparent
+        border: none
+        color: #fff
+        font-size: 16px
+        font-family: 'SunBleuSunrise'
+        padding-right: 50px
+        background-image: url('../img/arrow-select.svg')
+        background-position-x: right
+        background-position-y: 7px
+        background-size: 10px
+        background-repeat: no-repeat
+
+.form-item:after
+    content: ""
+    width: 100%
+    height: 1px
+    background: #fff
+    display: block
+    margin-top: 10px
+
+.cta-form
+    width: 80%
+
+.item-image-wrap
+    height: 300px
+    @media screen and ( max-width: 1300px )
+        height: 250px
+    @media screen and ( max-width: 375px )
+        height: 200px
+
+.s-benefits
+    padding-top: 0
+    @media screen and ( min-width: 1920px )
+        padding-top: 350px
+        
+
+
+.s-benefits-items
+    display: flex
+    align-items: flex-start
+    @media screen and ( max-width: 1200px )
+        overflow-x: scroll
+        scroll-snap-type: x mandatory
+        height: 560px
+
+.s-benefits-items-wrap
+    @media screen and ( max-width: 1200px )
+        height: 530px
+
+.s-benefits-item
+    width: 600px
+    margin-right: 30px
+    flex-shrink: 0
+    @media screen and ( max-width: 1300px )
+        width: 450px
+    @media screen and ( max-width: 1200px )
+        scroll-snap-align: start
+    @media screen and ( max-width: 576px )
+        width: 100%
+    h3
+        @media screen and ( max-width: 1300px )
+            font-size: 30px
+    h4
+        @media screen and ( max-width: 1300px )
+            font-size: 30px
+        @media screen and ( max-width: 576px )
+            white-space: initial 
+
+.flats-tabs
+    width: 550px
+    @media screen and ( max-width: 576px )
+        flex-direction: column
+        align-items: center
+        width: 100%
+    .button:first-child
+        @media screen and ( max-width: 576px )
+            margin-bottom: 15px
+
+.flats-tab.active
+    background-color: $black
+    color: #fff
+
+.flat-cart
+    max-width: 340px
+    margin-right: 50px
+    margin-bottom: 50px
+    @media screen and ( max-width: 960px )
+        max-width: 280px
+    img
+        width: 100%
+        height: auto
+
+.flats-content
+    display: none
+
+.flats-content.active
+    display: flex
+    align-items: center
+    justify-content: center
+
+.partners
+    @media screen and ( max-width: 375px )
+        padding-top: 80px
+
+.partners-grid
+    display: grid
+    width: 100%
+    grid-template-columns: 1fr 1fr 1fr
+    align-items: center
+    @media screen and ( max-width: 375px )
+        grid-template-columns: 1fr
+
+.partners-grid-item
+    padding: 100px
+    border: 1px solid $grey
+    min-height: 300px
+    @media screen and ( max-width: 768px )
+        padding: 50px
+        min-height: 200px
+    @media screen and ( max-width: 375px )
+        padding: 80px
+    @media screen and ( min-width: 1920px )
+        height: 350px
+
+.drag-cursor
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 999
+    width: 90px
+    pointer-events: none
+    display: none
+
+.s-gallery .swiper-scrollbar-drag
+    background-color: $red!important
+
+.district
+    @media screen and ( max-width: 768px)
+        padding-bottom: 80px
+
+.s-cta
+    margin-top: 120px
+    position: relative
+    @media screen and ( min-width: 1920px )
+        margin-top: 300px
+
+.form-content
+    @media screen and ( max-width: 576px )
+        flex-direction: column
+        align-items: flex-start
+    .form-item
+        @media screen and ( max-width: 576px )
+            width: 100%
+        input, select
+            @media screen and ( max-width: 576px )
+                width: 100%
+
+.s-flats
+    min-height: 1110px
+    @media screen and ( max-width: 576px )
+        margin-top: 80px
+        padding-bottom: 80px
+
+.grid-columns-30-70
+    @media screen and ( max-width: 576px )
+        grid-template-columns: 1fr
+        row-gap: 30px
+.grid-columns-70-30
+    @media screen and ( max-width: 576px )
+        grid-template-columns: 1fr
+        row-gap: 30px
+    div:first-child
+        @media screen and ( max-width: 576px )
+            grid-row-start: 3
+
+.footer
+    @media screen and ( max-width: 576px )
+        flex-direction: column
+        align-items: center
+
+.popup-wrap
+    position: fixed
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.8)
+    top: 0
+    left: 0
+    z-index: 999
+    display: flex
+    align-items: center
+    justify-content: center
+    display: none
+
+.popup
+    max-width: 700px
+    width: 700px
+    background: #fff
+    padding: 50px
+    position: relative
+    margin-right: 15px
+    margin-left: 15px
+    @media screen and ( max-width: 375px )
+        padding: 40px 15px
+
+    &__close
+        position: absolute
+        top: 15px
+        right: 15px
+        width: 35px
+        height: 35px
+        cursor: pointer
+    &__title
+        text-align: center
+        color: $black
+
+.popup-form
+    margin-top: 30px
+    &__item
+        width: 100%
+        height: 55px
+        padding: 0 25px
+        border: 1px solid #4d4d4d
+        border-radius: 0
+        font-size: 16px
+        margin-bottom: 15px
+    &__item:focus
+        outline: 2px solid #472700
+    &__item::placeholder
+        font-family: 'SunBleuVersailles'
+    &__button
+        border-radius: 0
+        width: 100%
+
+.popup-agree
+    display: flex
+    align-items: center
+    margin-top: 15px
+    &__label
+        font-size: 14px
+        margin-left: 15px
+    a
+        font-size: 14px
+        color: $black
